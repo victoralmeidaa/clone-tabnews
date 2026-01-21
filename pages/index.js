@@ -1,46 +1,47 @@
 function Home() {
   return (
-    <div style={styles.container}>
+    <main style={styles.container}>
       <h1 style={styles.title}>🚧 Em Construção 🚧</h1>
 
-      <p style={styles.text}>
-        Este site ainda está sendo preparado com muito carinho.
-      </p>
+      <p style={styles.text}>Este site está sendo preparado.</p>
 
-      <span style={styles.footer}>
-        © {new Date().getFullYear()} • Em breve novidades
-      </span>
-    </div>
+      <footer style={styles.footer}>© {new Date().getFullYear()}</footer>
+    </main>
   );
 }
 
 const styles = {
   container: {
-    minHeight: "100vh",
-    background: "linear-gradient(135deg, #0f0f0f, #1a1a1a)",
-    color: "#ffffff",
+    position: "fixed", // TRAVA no tamanho da viewport
+    inset: 0, // top/right/bottom/left = 0
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
+    background: "#0f0f0f",
+    color: "#fff",
     textAlign: "center",
-    padding: "20px",
-    fontFamily: "Arial, sans-serif",
+    fontFamily: "system-ui, sans-serif",
+    overflow: "hidden", // impede qualquer sobra
   },
+
   title: {
-    fontSize: "3rem",
-    marginBottom: "20px",
+    fontSize: "clamp(2rem, 6vw, 3rem)",
+    marginBottom: "0.75rem",
+    lineHeight: 1.1,
   },
+
   text: {
-    fontSize: "1.2rem",
-    maxWidth: "500px",
-    marginBottom: "15px",
-    opacity: 0.9,
+    fontSize: "clamp(0.95rem, 3vw, 1.1rem)",
+    opacity: 0.75,
+    maxWidth: "90vw", // nunca ultrapassa a tela
   },
+
   footer: {
-    marginTop: "30px",
-    fontSize: "0.9rem",
-    opacity: 0.6,
+    position: "absolute",
+    bottom: "1rem",
+    fontSize: "0.8rem",
+    opacity: 0.4,
   },
 };
 
