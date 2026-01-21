@@ -3,7 +3,7 @@ function Home() {
     <main style={styles.container}>
       <h1 style={styles.title}>🚧 Em Construção 🚧</h1>
 
-      <p style={styles.text}>Este site está sendo preparado.</p>
+      <p style={styles.text}>Este site está sendo preparado. </p>
 
       <footer style={styles.footer}>© {new Date().getFullYear()}</footer>
     </main>
