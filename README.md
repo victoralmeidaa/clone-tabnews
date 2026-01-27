@@ -21,4 +21,4 @@ Implementação do https://www.tabnews.com.br para o https://curso.dev
 [1]: http://victoralmeidadev.com.br "victordealmeidadev/clone-tabnews"
 
 - [Git e Github](docs/git-github.md): Comando git
-- [Preparando o Ambiente](docs/Ambiente.md): Node/Next/React
+- [Preparando o Ambiente](docs/ambiente.md): Node/Next/React
