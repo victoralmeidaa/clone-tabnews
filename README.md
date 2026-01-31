@@ -15,10 +15,12 @@ Implementação do https://www.tabnews.com.br para o https://curso.dev
 | **Git & GitHub**                     | Controle e versionamento de código                 |     |
 | (Opcional) **Jest/Tests**            | Testes automatizados                               |     |
 | (Opcional) **CI/CD**                 | Integração contínua                                |     |
-| (Opcional) **Docker**                | Ambiente container 📦                              |
+| (Opcional) **Docker**                | Ambiente container                                 |
 | Meu site ([victoralmeidadev.com][1]) |
 
 [1]: http://victoralmeidadev.com.br "victordealmeidadev/clone-tabnews"
 
-- [Git e Github](docs/git-github.md): Comando git
+- [Git e Github](docs/git-github.md): Comandos git
 - [Preparando o Ambiente](docs/ambiente.md): Node/Next/React
+- [Configurações do editor](docs/configuracao-do-editor.md): editorConfig/Prettier/ESLint
+- [Testes Automatizados](docs/test.md): Jest/
