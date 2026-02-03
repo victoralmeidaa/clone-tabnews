@@ -24,3 +24,4 @@ Implementação do https://www.tabnews.com.br para o https://curso.dev
 - [Preparando o Ambiente](docs/ambiente.md): Node/Next/React
 - [Configurações do editor](docs/configuracao-do-editor.md): editorConfig/Prettier/ESLint
 - [Testes Automatizados](docs/test.md): Jest/
+- [Conteiner](docs/conteiner.md): Docker/
