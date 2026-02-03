@@ -38,11 +38,11 @@ Em vez de vários `docker run`, você define tudo em um arquivo `compose.yaml`.
 ```yaml
 services:
   database:
-    image: "postgres:16.11-alpine3.22"
-    environment:
-      POSTGRES_PASSWORD: "seu_password"
+    image: "postgres:16.11-alpine3.22" #Define imagem usada.
+    environment: #variáveis de ambiente
+      POSTGRES_PASSWORD: "seu_password" #Define senhar para o conteiner
     ports:
-      - "5432:5432"
+      - "5432:5432" #Mapeamento host:conteiner
 ```
 
 ---
